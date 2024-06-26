@@ -1,0 +1,10 @@
+platform: Common
+purpose: Publish
+buildPlatform:
+displayName: "Send to Enterprise Store"
+description: "Sends binary to Enterprise Store Module"
+runOn: "Server"
+processFilename: bash
+processArguments: '%AC_STEP_TEMP%/main.sh'
+files:
+- "main.sh"
